@@ -16,11 +16,31 @@
  */
 
 /*      light colors         */
+
+@font-face {
+  font-family: Allura-Regular;
+  src: url(../fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSansCondensed-Light;
+  src: url(../fonts/OpenSansCondensed-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+
+
 html {
   font-size: 14px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+
 
 body {
   -moz-osx-font-smoothing: grayscale;
@@ -97,6 +117,7 @@ h6 a,
 }
 
 h1, .h1 {
+  font-family: 'Allura-Regular';
   font-size: 3em;
   line-height: 1.213483146em;
   font-weight: bold;
@@ -146,7 +167,7 @@ td,
 small,
 .media h5,
 .subtitle {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat-Regular", "OpenSansCondensed-Light", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -157,6 +178,16 @@ a {
 a:hover {
   color: #777777;
   opacity: 1;
+}
+
+#header-name {
+  font-family:'Allura-Regular';
+  font-size:30px;
+}
+
+.header-subtitle {
+  font-family:'Montserrat-Regular';
+  letter-spacing:3px ;
 }
 
 .title {
