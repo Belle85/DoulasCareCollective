@@ -910,6 +910,7 @@ a.carousel-control span.fa {
 .btn-danger.btn-fill,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill {
   color: #FFFFFF;
+  margin-bottom: 15px;
   background-color: #aa634d;
   opacity: 1;
   filter: alpha(opacity=100);
