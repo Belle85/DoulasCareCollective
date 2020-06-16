@@ -1540,7 +1540,7 @@ a.carousel-control span.fa {
 .section-small .static-image .image,
 .section-get-started .parallax .image,
 .section-get-started .static-image .image {
-  height: 100vh !important;
+  height: 132vh !important;
 }
 
 .section-info {
