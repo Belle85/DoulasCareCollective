@@ -2488,7 +2488,7 @@ legend {
 label {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   font-weight: bold;
 }
 input[type="search"] {
@@ -4728,7 +4728,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .label {
   display: inline;
   padding: .2em .6em .3em;
-  font-size: 75%;
+  font-size: 150%;
   font-weight: bold;
   line-height: 1;
   color: #fff;
