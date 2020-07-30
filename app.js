@@ -2,9 +2,9 @@ const express = require("express");
 const request = require("request");
 const bodyParser = require("body-parser");
 const path = require("path");
-const { resourceUsage } = require("process");
-const { response } = require("express");
-const { readdirSync } = require("fs");
+// const { resourceUsage } = require("process");
+// const { response } = require("express");
+// const { readdirSync } = require("fs");
 
 const app = express();
 
@@ -14,6 +14,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //Static folder
 app.use(express.static(path.join(__dirname, 'public')));
+
+
 
 // Signup Route
 
