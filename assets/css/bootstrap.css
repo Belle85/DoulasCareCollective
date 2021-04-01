@@ -2495,7 +2495,7 @@ legend {
 label {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   font-weight: bold;
 }
 input[type="search"] {

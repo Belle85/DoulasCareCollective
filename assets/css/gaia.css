@@ -132,6 +132,7 @@ h2, .h2 {
   font-size: 2.5em;
   line-height: 1.25;
   letter-spacing: 0.06em;
+  text-align: center;
   margin: 0.4em 0;
   /* font-weight: bold; */
   font-family: 'Allura-Regular';
@@ -439,7 +440,7 @@ body > .navbar-collapse a {
 }
 
 .form-control {
-  margin-bottom: 1.875em;
+  margin-bottom: 1.1em;
 }
 
 @-webkit-keyframes zoomOut {
