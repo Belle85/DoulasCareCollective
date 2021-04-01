@@ -2971,6 +2971,15 @@ select[multiple].form-group-lg .form-control {
     padding-top: 6px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  #homelogo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
